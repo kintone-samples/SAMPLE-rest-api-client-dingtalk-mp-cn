@@ -1,0 +1,86 @@
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  /* margin-top: 30rpx; */
+}
+
+.row-title {
+  /* flex: 1; */
+  padding-top: 28rpx;
+  padding-bottom: 28rpx;
+  font-size: 16px;
+  color:#3498db;
+}
+
+.row-extra {
+  flex-basis: initial;
+  font-size: 38rpx;
+  color: #888;
+  border-color:#3498db;
+  border-width:1px;
+  border-style:solid;
+  width:200rpx;
+  margin-left: 16rpx;
+  text-align: center;
+}
+
+.row-arrow {
+  width: 32rpx;
+  height: 32rpx;
+  margin-left: 16rpx;
+}
+
+.text-title {
+  margin-left: 30rpx;
+  margin-top: 2000rpx;
+  font-size: 20px;
+  color:#3498db;
+}
+
+.img-upload1{
+  width: 200rpx;
+  height:200rpx;
+}
+.img-upload2{
+  margin-left: 20px;
+  width: 200rpx;
+  height:200rpx;
+}
+.img-upload3{
+  margin-left: 20px;
+  width: 200rpx;
+  height:200rpx;
+}
+.img-section{
+  /* background-color: #eee; */
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  height:200rpx;
+}
+.btn-submit{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.btn-upload{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.textarea-work{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-color:#3498db;
+  border-width:1px;
+  border-style:solid;
+}
+.title-work{
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.header{
+  margin-top: 30rpx;
+}

@@ -1,0 +1,50 @@
+<view class="page">
+  <view class="header">
+    <text class="text-title">{{name}}</text><text class="text-title">{{department}}</text>
+  </view>
+
+  <view class="page-section">
+    <picker onChange="bindStartPickerChange" mode="time">
+      <view class="row">
+        <view class="row-title">{{workingHoursTitle}}</view>
+        <view class="row-extra">{{workingHours}}</view>
+      </view>
+    </picker>
+  </view>
+
+  <view class="page-section">
+    <picker onChange="bindEndPickerChange" mode="time">
+      <view class="row">
+        <view class="row-title">{{offHoursTitle}}</view>
+        <view class="row-extra">{{offHours}}</view>
+      </view>
+    </picker>
+  </view>
+
+  <view class="page-section">
+    <view class="title-work">{{workTitle}}</view>
+    <view class="page-section-demo">
+      <textarea class="textarea-work" onBlur="bindWorkTextAreaBlur" auto-height value="{{work}}" />
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="title-work">{{thinkTitle}}</view>
+    <view class="page-section-demo">
+      <textarea class="textarea-work" onBlur="bindThinkTextAreaBlur" auto-height placeholder="请输入{{thinkTitle}}" />
+    </view>
+  </view>
+
+  <view class="page-section">
+    <button class="btn-upload" type="primary" size="mini" onTap="chooseImage">{{imageTitle}}</button>
+  </view>
+  <view class="img-section">
+    <image src="{{src[0]}}" class="img-upload1" />
+    <image src="{{src[1]}}" class="img-upload2" />
+    <image src="{{src[2]}}" class="img-upload3" />
+  </view>
+  <view class="page-section">
+    <view class="page-section-demo">
+      <button class="btn-submit" form-type="submit" type="primary" onTap="addRecord">提交</button>
+    </view>
+  </view>
+</view>

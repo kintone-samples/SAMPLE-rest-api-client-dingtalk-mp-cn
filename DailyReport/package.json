@@ -1,0 +1,16 @@
+{
+  "name": "DailyReport",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "@kintone/rest-api-client-dingtalk-mp": "^0.1.0"
+  },
+  "author": "Cybozu, Inc.",
+  "license": "MIT",
+  "keywords": [
+    "Daily Report",
+    "kintone",
+    "cybozu"
+  ]
+}

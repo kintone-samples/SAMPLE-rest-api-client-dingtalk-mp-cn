@@ -1,0 +1,28 @@
+<template name="List">
+    <scroll-view scroll-y>
+        <view>
+            <view class="a-list">
+              
+                <view a:if={{data}} class="a-list-items">
+                    <block a:for={{data}}>
+                        <view
+                            class="a-list-item  am-list-item-middle"
+                            hover-class="a-list-item-hover"
+                            onTap="{{onItemTap}}"
+                            data-id={{item.id}}
+                        >
+                            <view class="a-list-item-line a-list-item-line-nowrap">
+                  
+                                <text class="a-list-item-middle a-list-item-content">{{item.title}}</text>
+                   
+                                <image src={{item.filePath}} class="item-img" />
+                                <view class="a-list-arrow a-list-arrow-horizontal" />
+                                <view class="a-list-item-bottom" />
+                            </view>
+                        </view>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </scroll-view>
+</template>

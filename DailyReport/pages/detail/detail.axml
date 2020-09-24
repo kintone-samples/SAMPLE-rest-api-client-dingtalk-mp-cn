@@ -1,0 +1,53 @@
+<view class="page">
+  <view class="header">
+    <text class="text-title">{{name}}</text><text class="text-title">{{department}}</text>
+  </view>
+  <view class="page-section">
+    <view class="row">
+      <view class="row-title">{{workingHoursTitle}}</view>
+      <view class="row-extra">{{workingHours}}</view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="row">
+      <view class="row-title">{{offHoursTitle}}</view>
+      <view class="row-extra">{{offHours}}</view>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="title-work">{{workTitle}}</view>
+    <view class="page-section-demo">
+      <view class="text-section">
+        <text class="text-content">{{work}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="title-work">{{thinkTitle}}</view>
+    <view class="page-section-demo">
+      <view class="text-section">
+        <text class="text-content">{{think}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="page-section">
+    <view class="title-work">图片：</view>
+  </view>
+  <view class="img-section">
+    <image src="{{src[0]}}" class="img-upload1" />
+    <image src="{{src[1]}}" class="img-upload2" />
+    <image src="{{src[2]}}" class="img-upload3" />
+  </view>
+
+  <view class="page-section">
+    <view class="title-work">{{commentTitle}}</view>
+    <view class="page-section-demo">
+      <view class="text-section">
+        <text class="text-content">{{comment}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

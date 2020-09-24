@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/detail/detail" 
+  ],
+  "window": {
+    "defaultTitle": "我的日报"
+  }
+}
